@@ -1,7 +1,7 @@
 {
-  "name": "bcbrian",
+  "name": "demo-poker-game",
   "version": "0.0.1",
-  "description": "bcbrian.com",
+  "description": "poker game",
   "main": "client/main.js",
   "scripts": {
     "start": "meteor run",
@@ -18,15 +18,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bcbrian/bcbrian.git"
+    "url": "git+https://github.com/Blikone/demo-poker-game.git"
   },
   "keywords": [],
-  "author": "Brian Bartholomew",
+  "author": "Jonathan Steenblik",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bcbrian/bcbrian/issues"
+    "url": "https://github.com/Blikone/demo-poker-game/issues"
   },
-  "homepage": "https://github.com/bcbrian/bcbrian#readme",
+  "homepage": "https://github.com/Blikone/demo-poker-game#readme",
   "dependencies": {
     "bootstrap": "^4.0.0-alpha.2",
     "meteor-node-stubs": "^0.2.1",
