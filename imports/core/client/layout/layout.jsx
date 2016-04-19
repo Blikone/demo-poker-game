@@ -6,7 +6,7 @@ export default class Layout extends React.Component {
       <div>
         <header>
         <nav className="navbar navbar-light bg-faded">
-          <a className="navbar-brand" href="/">bcbrian</a>
+          <a className="navbar-brand" href="/">Okay, let's play!</a>
           <ul className="nav navbar-nav">
             <li className={"nav-item "+(this.props.isAtHome?"active":"")}>
               <a className="nav-link" href="/">home <span className="sr-only">(current)</span></a>
