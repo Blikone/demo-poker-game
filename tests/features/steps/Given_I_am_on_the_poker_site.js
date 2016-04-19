@@ -3,11 +3,11 @@ module.exports = function() {
     browser.url('http://localhost:3000');
   });
   
-  this.Then(/^I should see "([^"]*)"$/, function (arg1) {
+  this.Then(/^I should see "([^"]*)"$/, function (copy) {
     // <h1 className="display-3">Some Page!</h1>
-    let _el = 'h1.display-3';
+    let _el = 'a.navbar-brand';
     browser.waitForExist(_el);
-    expect(browser.getText(_el)).toEqual(arg1);
+    expect(browser.getText(_el)).toEqual(copy);
     // Write the automation code here
   });
 };
